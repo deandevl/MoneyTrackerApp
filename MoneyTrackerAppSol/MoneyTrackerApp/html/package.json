@@ -1,0 +1,38 @@
+{
+  "name": "moneytrackerapp",
+  "version": "1.0.0",
+  "description": "Program keeps track of income/expenses",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deandevl/MoneyTrackerApp.git"
+  },
+  "keywords": [
+    "MoneyTrackerApp",
+    "Vue.js"
+  ],
+  "author": "Rick Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deandevl/MoneyTrackerApp/issues"
+  },
+  "homepage": "https://github.com/deandevl/MoneyTrackerApp#readme",
+  "dependencies": {
+    "buttoncomp": "git+https://github.com/deandevl/ButtonComp.git",
+    "inputcomp": "git+https://github.com/deandevl/InputComp.git",
+    "labelcomp": "git+https://github.com/deandevl/LabelComp.git",
+    "selectcomp": "git+https://github.com/deandevl/SelectComp.git",
+    "selecteditcomp": "git+https://github.com/deandevl/SelectEditComp.git",
+    "tablecomp": "git+https://github.com/deandevl/TableComp",
+    "vue": "^2.5.9"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
